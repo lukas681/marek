@@ -80,7 +80,7 @@ googleAnalytics = "UA-163506805-1"
         university = "Universitetet i Bergen"
         dates = "Winter 2020"
         [[params.education.list]]
-        degree = "B.Sc. Computer Science (A, 1.4)"
+        degree = ""
         university = "Duale Hochschule Baden-Württemberg Mannheim"
         dates = "2015 - 2018"
         [[params.education.list]]
@@ -96,42 +96,44 @@ googleAnalytics = "UA-163506805-1"
         enable = true
 
         [[params.awards.list]]
-        name = "DHBW Mannheim"
-        body = "Honored as Best Graduate"
-        date = "2018"
+        name = ""
+        body = ""
+        date = ""
         [[params.awards.list]]
-        name = "Deutscher Musikrat"
-        body = "First Price Regional Competition Jugend Musiziert"
-        date = "2013"
+        name = ""
+        body = ""
+        date = ""
 
     [params.languages]
         enable = true
         [[params.languages.list]]
-           name = "German"
-         level = "Native"
+           name = ""
+         level = ""
         [[params.languages.list]]
-            name = "English"
-            level = "Business Fluent, C1"
+            name = ""
+            level = ""
         [[params.languages.list]]
-          name = "Norwegian"
-           level = "Good, B1"
+          name = ""
+           level = ""
         [[params.languages.list]]
-          name = "Latin"
-           level = "Latinum"
+          name = ""
+           level = ""
 
     [params.interests]
         enable = true
 
         [[params.interests.list]]
-        name = "Piano"
+        name = ""
         [[params.interests.list]]
-        name = "Volleyball"
+        name = ""
         [[params.interests.list]]
-        name = "Reading"
+        name = ""
 
     [params.summary]
         enable = true
         textp1 = "Jeg heter Marek" 
+        texpp2 = "Jeg heter Marek" 
+        text = "Jeg heter Marek" 
 
     [params.experience]
         enable = true
