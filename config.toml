@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "https://lukasretschmeier.netlify.com/"
+baseURL = "https://distracted-carson-0085fa.netlify.app/"
 languageCode = "en"
 title = "Lukas Retschmeier"
 theme = "hugo-devresume-theme"
