@@ -1,8 +1,8 @@
 # Page settings
 
-baseURL = "https://distracted-carson-0085fa.netlify.app/"
+baseURL ="https://jeghetermarek.de"
 languageCode = "en"
-title = "Lukas Retschmeier"
+title = "Marek The BusGuy"
 theme = "hugo-devresume-theme"
 googleAnalytics = "UA-163506805-1"
 
@@ -49,30 +49,11 @@ googleAnalytics = "UA-163506805-1"
         [[params.skills.list.items]]
         details = ""
 
-        # [[params.skills.list]]
-        # title = "Academic"
-        # [[params.skills.list.items]]
-        # details = "Algorithms, Datastructures & Complexity"
-        # [[params.skills.list.items]]
-        # details = "Discrete Mathematics"
-        # [[params.skills.list.items]]
-        # details = "Programming Languages & Compiler Construction"
-
-
-        # [[params.skills.list]]
-        # title = "Professional"
-        # [[params.skills.list.items]]
-        # details = "Agile Principles (SCRUM)"
-        # [[params.skills.list.items]]
-        # details = "Team Player"
-        # [[params.skills.list.items]]
-        # details = "Strong Problem Solver"
-
     [params.education]
         enable = true
 
         [[params.education.list]]
-        degree = "M.Sc. Computer Science"
+        degree = "BSc. Tourism, canceled after 10 sem"
         university = "Technical University Munich"
         dates = "2019 - ongoing"
         [[params.education.list]]
@@ -133,7 +114,7 @@ googleAnalytics = "UA-163506805-1"
         enable = true
         textp1 = "Jeg heter Marek" 
         texpp2 = "Jeg heter Marek" 
-        text = "Jeg heter Marek" 
+        text = "Jeg heter Marek og helper dere å ikke se Nordys. Men jeg er greit." 
 
     [params.experience]
         enable = true
