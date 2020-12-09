@@ -1,105 +1,234 @@
-baseURL = "https://miguelsimoni.github.io/hugo-initio-site/"
-languageCode = "en-us"
-title = "Initio - Free, multipurpose html5 template by GetTemplate"
-theme = "hugo-initio"
-publishDir = "docs"
+# Page settings
+
+baseURL = "https://lukasretschmeier.netlify.com/"
+languageCode = "en"
+title = "Lukas Retschmeier"
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-163506805-1"
+
 
 [params]
-    name = "Anthony Russel"
-    email = "anthony.russel42@example.com"
-    phone = "+234 23 9873237"
-    address = "234 Hidden Pond Road, Ashland City, TN 37015"
-    year = 2017
-    avatar = "images/guy.jpg"
-    avatarclass = "circle"
-    background = ""
-    banner = "images/bg_head.jpg"
-    favicon = "images/gt_favicon.png"
-    DateForm = "January 2, 2006"
+    author = "Lukas Retschmeier"
+    description = "Lukas Retschmeier Resume"
 
-    showSubheader = true
-    showServices = true
-    showRecentWorks = true
-    showDownload = true
-    showClients = true
+    primaryColor = "#FF6460"
+    textPrimaryColor = "#292929"
 
-    footerEnableContact = true
-    footerEnableFollowme = true
-    footerEnableTextWidget = true
-    footerEnableFormWidget = true
+    [params.profile]
+        enable = true
+        name = "Lukas Retschmeier"
+        tagline = "Junior IT Consultant PLM & Developer"
+        avatar = "avatar.png"
 
-[[menu.main]]
-    name = "home"
-    url = "/"
-    weight = 1
-[[menu.main]]
-    name = "blog"
-    url = "/post/"
-    weight = 5
+    [params.contact]
+        enable = true
+        location = "Munich"
 
-[params.disqus]
-    site = "hugo-initio-site.disqus.com"
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:+4915254548176"
+        text = "1525 45 48 176"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:retschmeier.lukas@gmail.com"
+        text = "retschmeier.lukas@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "https://www.lukasretschmeier.de"
+        text = "www.lukasretschmeier.de"
 
-[params.sharethis]
-    property = "123456789012345678901234"
-    custom = true
+    [params.skills]
+        enable = true
 
-[params.google.analytics]
-    trackerID = "GA-000000000-0"
+        [[params.skills.list]]
+        title = "Core Competences"
+        [[params.skills.list.items]]
+        details = "Agile Software Development"
+        [[params.skills.list.items]]
+        details = "Siemens Teamcenter"
+        [[params.skills.list.items]]
+        details = "Docker"
 
-[[params.social]]
-	title = "facebook"
-	url = "https://www.facebook.com/nickname"
-    icon = "fab fa-facebook-square"
-    footer = true
-    sharethis = true
-    network = "facebook"
-[[params.social]]
-	title = "twitter"
-	url = "https://twitter.com/nickname"
-    icon = "fab fa-twitter-square"
-    footer = true
-    sharethis = true
-    network = "twitter"
-[[params.social]]
-	title = "instagram"
-	url = "https://www.instagram.com/nickname"
-    icon = "fab fa-instagram"
-    footer = true
-    sharethis = false
-    network = ""
-[[params.social]]
-	title = "google+"
-	url = "https://plus.google.com/+nickname"
-    icon = "fab fa-google-plus-square"
-    footer = false
-    sharethis = true
-    network = "googleplus"
-[[params.social]]
-	title = "linkedin"
-	url = "https://www.linkedin.com/in/nickname"
-    icon = "fab fa-linkedin"
-    footer = false
-    sharethis = true
-    network = "linkedin"
-[[params.social]]
-	title = "tumblr"
-	url = "https://nickname.tumblr.com"
-    icon = "fab fa-tumblr-square"
-    footer = false
-    sharethis = false
-    network = "tumblr"
-[[params.social]]
-	title = "github"
-	url = "https://github.com/nickname"
-    icon = "fab fa-github"
-    footer = true
-    sharethis = false
-    network = ""
-[[params.social]]
-	title = "email"
-	url = "mailto:some.email@somewhere.com"
-    icon = "fas fa-envelope-square"
-    footer = false
-    sharethis = true
-    network = "email"
+        # [[params.skills.list]]
+        # title = "Academic"
+        # [[params.skills.list.items]]
+        # details = "Algorithms, Datastructures & Complexity"
+        # [[params.skills.list.items]]
+        # details = "Discrete Mathematics"
+        # [[params.skills.list.items]]
+        # details = "Programming Languages & Compiler Construction"
+
+
+        # [[params.skills.list]]
+        # title = "Professional"
+        # [[params.skills.list.items]]
+        # details = "Agile Principles (SCRUM)"
+        # [[params.skills.list.items]]
+        # details = "Team Player"
+        # [[params.skills.list.items]]
+        # details = "Strong Problem Solver"
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "M.Sc. Computer Science"
+        university = "Technical University Munich"
+        dates = "2019 - ongoing"
+        [[params.education.list]]
+        degree = "Erasmus+"
+        university = "Universitetet i Bergen"
+        dates = "Winter 2020"
+        [[params.education.list]]
+        degree = "B.Sc. Computer Science (A, 1.4)"
+        university = "Duale Hochschule Baden-Württemberg Mannheim"
+        dates = "2015 - 2018"
+        [[params.education.list]]
+        degree = "Seminars"
+        university = "Siemens Professional Education"
+        dates = "2015 - 2018"
+        [[params.education.list]]
+        degree = "A-Levels (1.9)"
+        university = "Gymnasium Dingolfing"
+        dates = "2007 - 2015"
+
+    [params.awards]
+        enable = true
+
+        [[params.awards.list]]
+        name = "DHBW Mannheim"
+        body = "Honored as Best Graduate"
+        date = "2018"
+        [[params.awards.list]]
+        name = "Deutscher Musikrat"
+        body = "First Price Regional Competition Jugend Musiziert"
+        date = "2013"
+
+    [params.languages]
+        enable = true
+        [[params.languages.list]]
+           name = "German"
+         level = "Native"
+        [[params.languages.list]]
+            name = "English"
+            level = "Business Fluent, C1"
+        [[params.languages.list]]
+          name = "Norwegian"
+           level = "Good, B1"
+        [[params.languages.list]]
+          name = "Latin"
+           level = "Latinum"
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Piano"
+        [[params.interests.list]]
+        name = "Volleyball"
+        [[params.interests.list]]
+        name = "Reading"
+
+    [params.summary]
+        enable = true
+        textp1 = "Heisann! I am a Developer from Munich. I love PLM and Algorithms" 
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Junior IT Consultant PLM"
+        dates = "2018 - Present"
+        company = "Atos Information Technologies GmbH"
+        details = "Consultancy and development around the PLM Suite <i>Siemens Teamcenter</i> for the automotive and aerospace industry."#
+        # [[params.experience.list.items]]
+        # details = "Development & Support of tools for converting, rendering and validating of media files in Teamcenter processes"
+        # [[params.experience.list.items]]
+        # details = "Teamcenter Customization"
+
+        [[params.experience.list]]
+        title = "Student Research Assistant"
+        dates = "2016 - 2018"
+        company = "Optes"
+        details = "Supporting the optes project. Development and Implementation of mathematical excersizes with Stack. Attended and organized workshops."
+
+        [[params.experience.list]]
+        title = "Dual Study Degree Program"
+        dates = "2015 - 2018"
+        company = "Atos Information Technologies Gmbh, Munich"
+        details = "Practical phases in different departments alternating every three months with theory phases at the DHBW Mannheim. Practical phases in Managed Services, SAP, Product Lifecycle Management and Enterprise Content Management have been accomplished and the following work have been done:"
+        #[[params.experience.list.items]]
+        # [[params.experience.list.items]]
+        # details = "Evaluation of Docker as a replacement of classical virtualization techniques for the PLM software Siemens Teamcenter"
+
+        # [[params.experience.list]]
+        # title = "Seminars"
+        # dates = "2015 - 2018"
+        # company = "Siemens Professional Education , Paderborn"
+        # details = "Along my Dual Study Degree program taking part in seminars about communication, economics and technical topics"
+        # [[params.experience.list.items]]
+        # details = "Communication Skills: Four courses for personal development and improving presentation skills"
+        # [[params.experience.list.items]]
+        # details = "Technical Skills: Office, SAP, SAP ABAP"
+        # [[params.experience.list.items]]
+        # details = "Economics: Economics Basics, TOPSIM (Simulation)"
+
+    [params.projects]
+        enable = true
+        [[params.projects.list]]
+        title = "Entwicklung und Evaluation eines Information Retrieval Systems"
+        meta = "Bachelor Thesis"
+        tagline = "Development of an a real-time full-text search engine for searching accross multiple  data sources with ElasticSearch to simplify the operation of PLM Systems (Bachelor Thesis, 1.0)" 
+        [[params.projects.list]]
+        title = "Development of a Sound-Plugin for SetlX"
+        meta = "Student Project"
+        tagline = ""
+        [[params.projects.list]]
+        title = "Docker as a Replacement for Traditional Virtualization Techniques in PLM"
+        meta = "Student Project"
+        tagline = "Investigated how Teamcenter can possibly be containerized to speed up the development process."
+
+#        [[params.projects.list]]
+#        title = "Hackathon Project: Game of LIfe"
+#        meta = "Hackdays MLP"
+#        tagline = "Tinder-Like Gamificated "
+
+        [[params.projects.list]]
+        title = "Heidelberg Digital Assistant"
+        meta = "Hackdays Rhein-Neckar"
+        tagline = "Analysed Data to detect human errors in processes of the printing industry. We won the Customer Centricity Award for our work."
+
+        [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = "Professional Certifications"
+        [[params.information.list.items]]
+        details = "2018 · TOEFFL iBT (91) · ETS"
+        [[params.information.list.items]]
+        details = "2017 · LCCI Level 2 · LCCI"
+        [[params.information.list.items]]
+        details = "2016 · ITIL Foundation · APMG"
+
+        # [[params.information.list]]
+        # title = "Interests"
+        # details = "Piano, Volleyball, Reading, Table Soccer"
+
+        [[params.information.list]]
+        title = "Voluntary"
+        details = "Fachschaft MPI (Student Council)"
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/lukas681"
+        title = "lukas681"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/lukas-retschmeier-024a64117"
+        title = "lukas-retschmeier"
+   
+    [params.footer]
+    copyright = ""
